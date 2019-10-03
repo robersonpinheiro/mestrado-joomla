@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+	<name>Menu JSON</name>
+	<author>Roberson Pinheiro</author>
+	<version>1.0.0</version>	
+	<files folder="site">				
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>controllers</folder>
+		
+		<filename>controller.php</filename>
+		<filename>menu_json.php</filename>
+		<filename>menu_json.xml</filename>
+	</files>
+	<administration>
+		<files folder="admin">
+			<filename>index.html</filename>
+		</files>		
+	</administration>	
+</extension>

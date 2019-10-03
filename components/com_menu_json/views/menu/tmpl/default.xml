@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Notícias JSON" option="View">
+        <message>
+			<![CDATA[Notícias JSON]]>
+        </message>
+	</layout>
+	<fields name="params">
+		<fieldset name="basic" label="Configuração da página">			
+			<field
+				name="categoria"
+				type="category"
+				extension="com_content"
+				label="Categoria de conteúdo"
+				description=""
+				required="true"
+			/>
+		</fieldset>
+	</fields>
+</metadata>
